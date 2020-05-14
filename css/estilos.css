@@ -1,0 +1,40 @@
+/* Aula inicial :D */
+body{
+    background-image: url('https://image.freepik.com/fotos-gratis/close-up-de-verde-sai-branco-fundo_23-2147924423.jpg');
+    background-size: auto 100vh; /* o auto mantem  o eixo, horzontal e vertical ,,,500px colocar um exemplo po 50px */
+    font-family: sans-serif;
+    height 100vh;
+  }
+  .menu{
+    background-color:white;
+  }
+  
+  a{
+    text-decoration: none; /* técnica para tirar underline */
+  }
+  
+  a:hover{ /* pseudo classe*/
+    text-decoration:underline;
+  }
+  .menu ul{
+    display:flex;
+    justify-content:space-between  ; /* space-around iniciar o teste com esse exemplo pede pra escolher;*/
+  }
+  .menu li {
+    list-style: none;
+  }
+  a{
+    color:teal;
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration:underline;
+  }
+  .site-subtitle,
+  .site-title{
+    color:#696969;
+    text-align:center;
+  }
+  .site-subtitle{
+    font-style:italic;
+  }
